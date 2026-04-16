@@ -1,0 +1,28 @@
+input:
+  zip_path: "data/input/buildings.zip"   # Path to zipped shapefile
+  crs_projected: 3857                   # Projected CRS (e.g., Web Mercator)
+
+processing:
+  clean_geometry: true                  # Fix invalid geometries
+  min_area: 10                          # Minimum polygon area filter
+  merge_overlaps: false                 # Merge overlapping polygons
+
+extrusion:
+  base_height_default: 10               # Height of base block (meters)
+  upper_height: 20                      # Height of upper structure
+  coverage_ratio: 0.7                   # % footprint for upper structure
+
+slicing:
+  export_per_floor: true                # Export floor-wise OBJ files
+  floor_height: 3                       # Height per floor (meters)
+
+terrain:
+  enable: false                         # Enable terrain elevation
+  dtm_path: "data/terrain/dtm.tif"      # Path to DTM raster file
+
+output:
+  out_dir: "output"                     # Output directory
+  prefix: "building"                    # Output file prefix
+
+performance:
+  verbose: true                         # Enable logging
