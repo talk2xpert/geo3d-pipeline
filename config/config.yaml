@@ -1,5 +1,5 @@
 input:
-  zip_path: "data/input/buildings.zip"   # Path to zipped shapefile
+  zip_path: "buildings.zip"   # Path to zipped shapefile
   crs_projected: 3857                   # Projected CRS (e.g., Web Mercator)
 
 processing:
