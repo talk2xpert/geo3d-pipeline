@@ -1,5 +1,5 @@
 # geo3d-pipeline
-# 🏗️ 3D Building Processing Pipeline (Open-Source)
+# 🏗️ 3D Building Processing Pipeline 
 
 ---
 
