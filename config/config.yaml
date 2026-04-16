@@ -18,7 +18,7 @@ slicing:
 
 terrain:
   enable: false                         # Enable terrain elevation
-  dtm_path: "data/terrain/dtm.tif"      # Path to DTM raster file
+  dtm_path: "Kishangarh.tif"      # Path to DTM raster file
 
 output:
   out_dir: "output"                     # Output directory
